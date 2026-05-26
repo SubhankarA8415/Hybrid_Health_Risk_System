@@ -7,26 +7,6 @@ import gdown
 
 
 # ============================================
-# 📁 CREATE REQUIRED DIRECTORIES
-# ============================================
-
-os.makedirs(
-    "project/artifacts/dl_model",
-    exist_ok=True
-)
-
-os.makedirs(
-    "project/artifacts/ml_models",
-    exist_ok=True
-)
-
-os.makedirs(
-    "project/data",
-    exist_ok=True
-)
-
-
-# ============================================
 # 📦 ASSET CONFIGURATION
 # ============================================
 
@@ -179,6 +159,27 @@ ASSETS = [
 
 
 # ============================================
+# 📁 CREATE REQUIRED DIRECTORY
+# ============================================
+
+def create_directory(
+
+    output_path
+):
+
+    directory = os.path.dirname(
+        output_path
+    )
+
+    os.makedirs(
+
+        directory,
+
+        exist_ok=True
+    )
+
+
+# ============================================
 # 🚀 DOWNLOAD FUNCTION
 # ============================================
 
@@ -215,6 +216,15 @@ print("============================================\n")
 for asset in ASSETS:
 
     output_path = asset["output"]
+
+
+    # ========================================
+    # 📁 CREATE DIRECTORY
+    # ========================================
+
+    create_directory(
+        output_path
+    )
 
 
     # ========================================

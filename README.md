@@ -31,7 +31,7 @@ The system combines:
 - Machine Learning
 - Deep Learning
 - Wellness Analytics
-- LLM-based Interpretation
+- LLM-based AI Interpretation
 - Full Stack Web Development
 
 into a complete healthcare analytics platform.
@@ -112,11 +112,14 @@ The project follows a modular full-stack architecture divided into:
 ## 🎨 Frontend
 
 Built using:
+
 - Streamlit
 - Plotly
-- Custom HTML/CSS
+- HTML/CSS
+- Custom CSS Styling
 
 Responsibilities:
+
 - User interaction
 - Assessment forms
 - Dashboard rendering
@@ -129,11 +132,13 @@ Responsibilities:
 ## ⚙️ Backend
 
 Built using:
+
 - FastAPI
 - Uvicorn
 - Pydantic
 
 Responsibilities:
+
 - API routing
 - Authentication
 - Prediction handling
@@ -146,12 +151,14 @@ Responsibilities:
 ## 🧬 AI Pipeline
 
 Built using:
+
 - TensorFlow / Keras
 - XGBoost
 - LightGBM
 - Scikit-learn
 
 Responsibilities:
+
 - ML inference
 - DL inference
 - Hybrid aggregation
@@ -163,10 +170,12 @@ Responsibilities:
 ## 🗄️ Database
 
 Built using:
+
 - SQLite
 - SQLAlchemy
 
 Stores:
+
 - User accounts
 - Report history
 - Chat history
@@ -177,7 +186,7 @@ Stores:
 # 📂 Project Structure
 
 ```bash
-HYBRID-HEALTH-RISK-SYSTEM/
+Hybrid-Health-Risk-System/
 │
 ├── project/
 │
@@ -191,14 +200,11 @@ HYBRID-HEALTH-RISK-SYSTEM/
 │   │   └── server.py
 │   │
 │   ├── artifacts/
-│   │   ├── dl_model/
-│   │   └── ml_models/
 │   │
 │   ├── config/
 │   │   └── config.py
 │   │
 │   ├── data/
-│   │   └── brfss_hybrid_dataset.csv
 │   │
 │   ├── database/
 │   │   ├── connection.py
@@ -230,7 +236,7 @@ HYBRID-HEALTH-RISK-SYSTEM/
 ├── requirements.txt
 ├── init_db.py
 ├── .env
-└── health_system.db
+└── README.md
 ```
 
 ---
@@ -318,12 +324,30 @@ The system analyzes:
 
 # ⚙️ Environment Variables
 
-Create a `.env` file inside the root directory and add:
+Create a `.env` file inside the root directory.
+
+Add the following variables:
 
 ```env
 OPENROUTER_API_KEY=your_openrouter_api_key
 SECRET_KEY=your_secret_key
 ```
+
+⚠ Important:
+
+Keep the `SECRET_KEY` exactly as provided in the project configuration.
+
+Generate your `OPENROUTER_API_KEY` from:
+
+https://openrouter.ai/
+
+After creating an account:
+
+- Go to "Keys"
+- Generate a new API key
+- Copy and paste it inside the `.env` file
+
+Only these two variables are required inside `.env`.
 
 ---
 
@@ -337,13 +361,14 @@ Before running the project, execute:
 python download_assets.py
 ```
 
-This script will automatically:
+This script automatically:
 
-- Download Deep Learning models
-- Download Machine Learning models
-- Download preprocessing files
-- Download dataset files
-- Create required folders automatically
+- Creates required folders
+- Downloads Deep Learning models
+- Downloads Machine Learning models
+- Downloads scaler files
+- Downloads preprocessing files
+- Downloads dataset files
 
 After downloading completes, the project can be run normally.
 
@@ -354,8 +379,8 @@ After downloading completes, the project can be run normally.
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone <your-repository-url>
-cd HYBRID-HEALTH-RISK-SYSTEM
+git clone https://github.com/SubhankarA8415/Hybrid-Health-Risk-System.git
+cd Hybrid-Health-Risk-System
 ```
 
 ---
@@ -388,7 +413,9 @@ pip install -r requirements.txt
 
 ## 4️⃣ Configure Environment Variables
 
-Create a `.env` file and add:
+Create a `.env` file inside the root directory.
+
+Add:
 
 ```env
 OPENROUTER_API_KEY=your_openrouter_api_key
@@ -409,6 +436,12 @@ python download_assets.py
 
 ```bash
 python init_db.py
+```
+
+This automatically creates:
+
+```bash
+health_system.db
 ```
 
 ---
@@ -499,8 +532,8 @@ Always consult qualified healthcare professionals for medical decisions.
 Final Year B.Tech Computer Science Student  
 ITER, SOA University
 
-- GitHub: github.com/SubhankarA8415
-- LinkedIn: linkedin.com/in/subhankar-pandit-080449255
+- GitHub: https://github.com/SubhankarA8415
+- LinkedIn: https://linkedin.com/in/subhankar-pandit-080449255
 
 ---
 
