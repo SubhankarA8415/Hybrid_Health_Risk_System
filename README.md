@@ -16,17 +16,25 @@
 
 # 📌 Overview
 
-AI Health Companion is a modern hybrid AI-powered healthcare analytics and preventive wellness platform designed to analyze lifestyle, behavioral, and wellness indicators to generate intelligent health risk predictions, AI-driven wellness interpretation, and personalized preventive insights.
+AI Health Companion is a hybrid AI-powered preventive healthcare and wellness intelligence platform designed to analyze lifestyle, behavioral, and wellness indicators to generate:
+
+- Disease risk predictions
+- Wellness analytics
+- AI-generated health interpretation
+- Preventive healthcare insights
+- Interactive dashboards
+- Downloadable PDF reports
+- AI healthcare assistant support
 
 The system combines:
 
 - Machine Learning
 - Deep Learning
 - Wellness Analytics
-- AI Interpretation
-- Interactive Visual Dashboards
+- LLM-based Interpretation
+- Full Stack Web Development
 
-to provide a complete preventive healthcare assessment experience.
+into a complete healthcare analytics platform.
 
 ---
 
@@ -34,55 +42,55 @@ to provide a complete preventive healthcare assessment experience.
 
 ## 🧠 Hybrid AI Prediction System
 
-- Machine Learning + Deep Learning combined prediction pipeline
-- Multi-model risk analysis
-- Hybrid aggregation engine
-- Intelligent risk calibration
+- Hybrid Machine Learning + Deep Learning inference
+- Multi-model health risk prediction
+- Intelligent risk aggregation
+- Dynamic risk calibration system
 
 ---
 
 ## 📊 Interactive Health Analytics Dashboard
 
 - Premium healthcare dashboard UI
+- Interactive Plotly analytics
 - Risk probability visualization
-- Wellness analytics charts
-- AI-powered health insights
-- Dynamic Plotly visualizations
+- Wellness score analytics
+- Dynamic healthcare insights
 
 ---
 
 ## 🌿 Wellness Intelligence System
 
 - AI-generated wellness scoring
-- Lifestyle impact analytics
-- Behavioral wellness breakdown
-- Preventive health insights
+- Lifestyle analytics
+- Behavioral health analysis
+- Preventive wellness recommendations
 
 ---
 
 ## 💬 AI Healthcare Assistant
 
-- AI-powered health companion chatbot
-- Wellness-related conversational support
+- AI-powered wellness chatbot
+- Healthcare-related conversational support
 - Personalized interpretation assistance
-- LLM-integrated response generation
+- LLM-based interaction system
 
 ---
 
 ## 📄 Smart PDF Report Generation
 
 - Professionally formatted PDF reports
-- AI interpretation summaries
-- Wellness overview
+- AI-generated wellness interpretation
 - Risk analytics tables
-- Downloadable healthcare assessment reports
+- Preventive healthcare summaries
+- Downloadable assessment reports
 
 ---
 
 ## 🔐 Authentication System
 
 - Secure user registration & login
-- Password hashing
+- Password hashing with Argon2
 - Session management
 - Persistent report history
 
@@ -91,44 +99,78 @@ to provide a complete preventive healthcare assessment experience.
 ## 📜 Report History Management
 
 - View previous reports
-- Download assessment reports
+- Download PDF reports
 - Delete saved reports
-- Persistent user-specific history
+- Persistent user-specific analytics history
 
 ---
 
 # 🏗️ System Architecture
 
-The platform follows a modular full-stack architecture consisting of:
+The project follows a modular full-stack architecture divided into:
 
-## Frontend
+## 🎨 Frontend
 
-- Streamlit-based modern healthcare UI
-- Interactive dashboards & analytics
-- Modular component structure
+Built using:
+- Streamlit
+- Plotly
+- Custom HTML/CSS
 
-## Backend
+Responsibilities:
+- User interaction
+- Assessment forms
+- Dashboard rendering
+- Visualization
+- Chat interface
+- Report management
 
-- FastAPI REST backend
-- Modular route & service architecture
-- Prediction APIs
-- Authentication APIs
-- Report management APIs
+---
 
-## AI Pipeline
+## ⚙️ Backend
 
-- XGBoost models
-- LightGBM models
-- Deep Learning inference pipeline
-- Hybrid aggregation system
-- Wellness scoring engine
+Built using:
+- FastAPI
+- Uvicorn
+- Pydantic
 
-## Database
+Responsibilities:
+- API routing
+- Authentication
+- Prediction handling
+- Report management
+- AI integration
+- Database communication
 
-- SQLite database integration
-- User authentication storage
-- Report persistence layer
-- Chat history storage
+---
+
+## 🧬 AI Pipeline
+
+Built using:
+- TensorFlow / Keras
+- XGBoost
+- LightGBM
+- Scikit-learn
+
+Responsibilities:
+- ML inference
+- DL inference
+- Hybrid aggregation
+- Risk analytics
+- Wellness scoring
+
+---
+
+## 🗄️ Database
+
+Built using:
+- SQLite
+- SQLAlchemy
+
+Stores:
+- User accounts
+- Report history
+- Chat history
+- Authentication data
 
 ---
 
@@ -167,13 +209,15 @@ HYBRID-HEALTH-RISK-SYSTEM/
 │   │   ├── chat_assistant.py
 │   │   ├── interpreter.py
 │   │   ├── prompts.py
+│   │   ├── retriever.py
 │   │   └── openrouter_client.py
 │   │
 │   ├── pipeline/
 │   │   ├── predictor.py
 │   │   ├── aggregator.py
 │   │   ├── dl_inference.py
-│   │   └── ml_inference.py
+│   │   ├── ml_inference.py
+│   │   └── preprocess.py
 │   │
 │   └── ui/
 │       ├── components/
@@ -182,6 +226,7 @@ HYBRID-HEALTH-RISK-SYSTEM/
 │       ├── utils/
 │       └── app.py
 │
+├── download_assets.py
 ├── requirements.txt
 ├── init_db.py
 ├── .env
@@ -195,9 +240,9 @@ HYBRID-HEALTH-RISK-SYSTEM/
 | Model Type | Purpose |
 |---|---|
 | XGBoost | Disease Risk Prediction |
-| LightGBM | Obesity Risk Analysis |
+| LightGBM | Obesity Risk Prediction |
 | Deep Learning Model | Hybrid Multi-risk Inference |
-| Wellness Engine | Lifestyle Wellness Scoring |
+| Wellness Engine | Wellness Score Calculation |
 | LLM Integration | AI Interpretation & Chat |
 
 ---
@@ -217,32 +262,36 @@ The system analyzes:
 # 🎨 Frontend Highlights
 
 - Modern glassmorphism UI
-- Interactive healthcare analytics
-- Premium dark healthcare theme
+- Premium healthcare dashboard
+- Interactive analytics visualization
 - AI processing animations
-- Responsive dashboard layouts
+- Responsive layouts
 - Dynamic Plotly charts
-- Wellness analytics gauge charts
+- Wellness gauge analytics
 
 ---
 
 # 🔧 Tech Stack
 
-## Frontend
+## 🎨 Frontend
 
 - Streamlit
 - Plotly
 - HTML/CSS
-- Custom UI Styling
+- Custom CSS Styling
 
-## Backend
+---
+
+## ⚙️ Backend
 
 - FastAPI
 - Uvicorn
 - Pydantic
 - Requests
 
-## AI & ML
+---
+
+## 🧬 AI & ML
 
 - TensorFlow / Keras
 - Scikit-learn
@@ -251,12 +300,16 @@ The system analyzes:
 - NumPy
 - Pandas
 
-## Database
+---
+
+## 🗄️ Database
 
 - SQLite
 - SQLAlchemy
 
-## AI Integration
+---
+
+## 🤖 AI Integration
 
 - OpenRouter API
 - LLM-based interpretation system
@@ -271,6 +324,28 @@ Create a `.env` file inside the root directory and add:
 OPENROUTER_API_KEY=your_openrouter_api_key
 SECRET_KEY=your_secret_key
 ```
+
+---
+
+# 📦 Downloading AI Assets
+
+The trained AI models and dataset are not included in the GitHub repository due to file size limitations.
+
+Before running the project, execute:
+
+```bash
+python download_assets.py
+```
+
+This script will automatically:
+
+- Download Deep Learning models
+- Download Machine Learning models
+- Download preprocessing files
+- Download dataset files
+- Create required folders automatically
+
+After downloading completes, the project can be run normally.
 
 ---
 
@@ -313,11 +388,24 @@ pip install -r requirements.txt
 
 ## 4️⃣ Configure Environment Variables
 
-Create a `.env` file and add your API credentials.
+Create a `.env` file and add:
+
+```env
+OPENROUTER_API_KEY=your_openrouter_api_key
+SECRET_KEY=your_secret_key
+```
 
 ---
 
-## 5️⃣ Initialize Database
+## 5️⃣ Download AI Assets
+
+```bash
+python download_assets.py
+```
+
+---
+
+## 6️⃣ Initialize Database
 
 ```bash
 python init_db.py
@@ -325,7 +413,7 @@ python init_db.py
 
 ---
 
-## 6️⃣ Start Backend Server
+## 7️⃣ Start Backend Server
 
 ```bash
 uvicorn project.api.server:app --reload
@@ -339,7 +427,7 @@ http://127.0.0.1:8000
 
 ---
 
-## 7️⃣ Start Frontend
+## 8️⃣ Start Frontend
 
 Open another terminal and run:
 
@@ -394,9 +482,9 @@ Potential future improvements:
 
 This platform is developed for:
 
-- educational purposes
+- Educational purposes
 - AI research
-- preventive wellness awareness
+- Preventive wellness awareness
 
 It is NOT intended to replace professional medical diagnosis, treatment, or healthcare consultation.
 
