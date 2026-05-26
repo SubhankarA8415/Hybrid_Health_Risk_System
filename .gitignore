@@ -1,7 +1,15 @@
 __pycache__/
 *.pyc
+
 .env
+
 venv/
 .venv/
+
 *.db
+
 .ipynb_checkpoints/
+
+project/artifacts/
+
+project/data/
