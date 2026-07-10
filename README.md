@@ -416,8 +416,12 @@ Your support helps increase the visibility of the project and motivates the deve
 
 ---
 
+---
+
 <p align="center">
 
-<strong>Made with ❤️ by Subhankar Pandit</strong>
+### 🚀 Building Intelligent Software for Real-World Impact
+
+**Designed & Developed by Subhankar Pandit**
 
 </p>
