@@ -1,4 +1,5 @@
-# 🩺 AI Health Companion  
+# 🩺 AI Health Companion
+
 ### Hybrid AI-Powered Preventive Healthcare & Wellness Intelligence System
 
 <p align="center">
@@ -16,180 +17,277 @@
 
 # 📌 Overview
 
-AI Health Companion is a hybrid AI-powered preventive healthcare and wellness intelligence platform designed to analyze lifestyle, behavioral, and wellness indicators to generate:
+**AI Health Companion** is a **Hybrid AI-Powered Preventive Healthcare & Wellness Intelligence System** that combines **Machine Learning**, **Deep Learning**, **Large Language Models (LLMs)**, and **Full-Stack Web Development** to deliver intelligent disease risk prediction, personalized wellness analytics, AI-assisted health interpretation, and preventive healthcare recommendations.
 
-- Disease risk predictions
-- Wellness analytics
-- AI-generated health interpretation
-- Preventive healthcare insights
-- Interactive dashboards
-- Downloadable PDF reports
-- AI healthcare assistant support
+Designed with a modular full-stack architecture, the platform transforms lifestyle and behavioral health indicators into meaningful health insights through an end-to-end hybrid AI pipeline. It integrates predictive analytics, interactive visualizations, conversational AI, and automated reporting into a unified healthcare intelligence platform.
 
-The system combines:
+---
 
-- Machine Learning
-- Deep Learning
-- Wellness Analytics
-- LLM-based AI Interpretation
-- Full Stack Web Development
+# 🎬 Project Videos
 
-into a complete healthcare analytics platform.
+This repository includes two complementary project walkthroughs designed for different audiences.
+
+## 🌐 Public Project Showcase
+
+The public showcase presents a concise overview of the complete project, covering:
+
+- Problem Statement
+- Solution Overview
+- System Architecture
+- Hybrid AI Pipeline
+- Technology Stack
+- Core Features
+- Results & Performance
+- Future Scope
+
+### ▶ Watch the Project Showcase
+
+**YouTube:**  
+https://youtu.be/k3Olp_ZIYmk?si=32OMqzRVaXd_MMmP
+
+---
+
+## 🔒 Complete Project Demonstration
+
+A comprehensive implementation walkthrough is also available for professional evaluation purposes.
+
+The demonstration includes:
+
+- Complete Working Prototype
+- Source Code Walkthrough
+- Project Architecture
+- Backend & Frontend Workflow
+- AI Pipeline Implementation
+- Model Integration
+- Database Design
+- Feature Demonstration
+- Technical Design Decisions
+- End-to-End Project Execution
+
+To protect the project's implementation while supporting genuine technical evaluations, this demonstration is kept **unlisted**.
+
+It can be shared upon request for:
+
+- Recruiters
+- Hiring Managers
+- Technical Interviewers
+- Internship & Placement Evaluations
+- Academic Reviews
+- Research Discussions
+- Project Collaborations
+- Professional Technical Assessments
+
+---
+
+# 📂 Project Resources
+
+| Resource | Description |
+|----------|-------------|
+| 🎥 Public Project Showcase | Presentation-based overview of the complete project |
+| 📄 Project Presentation | Complete project presentation (available in the `docs` directory) |
+| 🏗️ Architecture Documentation | Detailed explanation of the complete system architecture |
+| 📚 Technical Documentation | Additional implementation and development documentation |
 
 ---
 
 # 🚀 Key Features
 
-## 🧠 Hybrid AI Prediction System
+## 🧠 Hybrid AI Prediction Engine
 
-- Hybrid Machine Learning + Deep Learning inference
-- Multi-model health risk prediction
+- Hybrid Machine Learning and Deep Learning inference
+- Multi-disease risk prediction
 - Intelligent risk aggregation
-- Dynamic risk calibration system
+- Confidence-based probability calibration
+- Personalized health risk assessment
 
 ---
 
-## 📊 Interactive Health Analytics Dashboard
+## 📊 Interactive Healthcare Dashboard
 
-- Premium healthcare dashboard UI
-- Interactive Plotly analytics
-- Risk probability visualization
+- Modern healthcare analytics dashboard
+- Interactive Plotly visualizations
+- Disease probability charts
 - Wellness score analytics
-- Dynamic healthcare insights
+- Personalized health insights
+- Responsive user interface
 
 ---
 
-## 🌿 Wellness Intelligence System
+## 🌿 Wellness Intelligence
 
-- AI-generated wellness scoring
-- Lifestyle analytics
+- Lifestyle assessment
 - Behavioral health analysis
-- Preventive wellness recommendations
+- Wellness score generation
+- Preventive healthcare recommendations
+- Personalized wellness insights
 
 ---
 
-## 💬 AI Healthcare Assistant
+## 🤖 AI Healthcare Assistant
 
-- AI-powered wellness chatbot
-- Healthcare-related conversational support
-- Personalized interpretation assistance
-- LLM-based interaction system
-
----
-
-## 📄 Smart PDF Report Generation
-
-- Professionally formatted PDF reports
-- AI-generated wellness interpretation
-- Risk analytics tables
-- Preventive healthcare summaries
-- Downloadable assessment reports
+- LLM-powered conversational assistant
+- AI-generated health interpretation
+- Personalized healthcare guidance
+- Natural language interaction
+- Intelligent report explanation
 
 ---
 
-## 🔐 Authentication System
+## 📄 Smart PDF Reporting
 
-- Secure user registration & login
-- Password hashing with Argon2
+- AI-generated healthcare reports
+- Downloadable PDF reports
+- Disease risk summaries
+- Wellness analytics
+- Preventive healthcare recommendations
+- Professional report formatting
+
+---
+
+## 🔐 Authentication & User Management
+
+- Secure user authentication
+- Password hashing
 - Session management
-- Persistent report history
+- User profile management
+- Protected healthcare records
 
 ---
 
-## 📜 Report History Management
+## 📜 Report & Chat History
 
-- View previous reports
-- Download PDF reports
+- Persistent report history
+- Download previous reports
 - Delete saved reports
-- Persistent user-specific analytics history
+- Chat history management
+- User-specific healthcare analytics
 
 ---
 
 # 🏗️ System Architecture
 
-The project follows a modular full-stack architecture divided into:
+AI Health Companion follows a modular, scalable, and production-oriented full-stack architecture. Each layer is designed to operate independently while contributing to a unified healthcare intelligence platform.
+
+The system consists of the following major components:
+
+| Layer | Description |
+|--------|-------------|
+| 🎨 Frontend | Interactive Streamlit-based user interface for assessments, dashboards, reports, and AI chat. |
+| ⚙️ Backend | FastAPI-powered REST API responsible for authentication, prediction, report generation, and business logic. |
+| 🧠 AI Engine | Hybrid Machine Learning + Deep Learning inference pipeline for disease risk prediction and wellness analytics. |
+| 🤖 LLM Layer | OpenRouter-powered Large Language Model for conversational assistance and AI-generated health interpretation. |
+| 🗄️ Database | SQLite database used for user accounts, report history, authentication, and chat persistence. |
+
+For detailed architecture diagrams and technical explanations, refer to:
+
+📄 **`docs/Architecture.md`**
+
+---
+
+# 🧠 Hybrid AI Pipeline
+
+The core intelligence of AI Health Companion is built upon a **Hybrid AI Pipeline** that combines classical Machine Learning models with Deep Learning to generate more reliable healthcare predictions.
+
+```text
+                 User Health Assessment
+                          │
+                          ▼
+                Data Preprocessing
+                          │
+                          ▼
+                Feature Engineering
+                          │
+          ┌───────────────┴───────────────┐
+          ▼                               ▼
+Machine Learning Models         Deep Learning Model
+(XGBoost & LightGBM)            (TensorFlow / Keras)
+          │                               │
+          └───────────────┬───────────────┘
+                          ▼
+               Hybrid Risk Aggregation
+                          │
+                          ▼
+              Wellness Intelligence Engine
+                          │
+                          ▼
+            LLM Health Interpretation Layer
+                          │
+                          ▼
+          Interactive Dashboard & PDF Report
+```
+
+The hybrid approach combines the interpretability of traditional Machine Learning with the feature learning capability of Deep Learning, producing more robust and personalized healthcare insights.
+
+---
+
+# 📊 Prediction Categories
+
+The platform currently predicts and analyzes the following healthcare indicators:
+
+- 🩸 Diabetes Risk
+- ❤️ Heart Disease Risk
+- ⚖️ Obesity Risk
+- 🌿 Lifestyle Wellness Score
+- 📈 Behavioral Health Indicators
+
+Each prediction includes probability estimation, confidence calibration, AI interpretation, and preventive healthcare recommendations.
+
+---
+
+# 💻 Technology Stack
 
 ## 🎨 Frontend
 
-Built using:
-
 - Streamlit
 - Plotly
-- HTML/CSS
-- Custom CSS Styling
-
-Responsibilities:
-
-- User interaction
-- Assessment forms
-- Dashboard rendering
-- Visualization
-- Chat interface
-- Report management
+- HTML5
+- CSS3
+- Custom UI Components
 
 ---
 
 ## ⚙️ Backend
 
-Built using:
-
 - FastAPI
 - Uvicorn
 - Pydantic
-
-Responsibilities:
-
-- API routing
-- Authentication
-- Prediction handling
-- Report management
-- AI integration
-- Database communication
+- Requests
 
 ---
 
-## 🧬 AI Pipeline
-
-Built using:
+## 🧠 Artificial Intelligence & Machine Learning
 
 - TensorFlow / Keras
+- Scikit-learn
 - XGBoost
 - LightGBM
-- Scikit-learn
+- NumPy
+- Pandas
 
-Responsibilities:
+---
 
-- ML inference
-- DL inference
-- Hybrid aggregation
-- Risk analytics
-- Wellness scoring
+## 🤖 Large Language Model
+
+- OpenRouter API
+- AI-powered Health Interpretation
+- Conversational Healthcare Assistant
 
 ---
 
 ## 🗄️ Database
 
-Built using:
-
 - SQLite
-- SQLAlchemy
-
-Stores:
-
-- User accounts
-- Report history
-- Chat history
-- Authentication data
+- SQLAlchemy ORM
 
 ---
 
 # 📂 Project Structure
 
-```bash
+```text
 Hybrid-Health-Risk-System/
 │
 ├── project/
-│
+│   │
 │   ├── api/
 │   │   ├── services/
 │   │   ├── auth_routes.py
@@ -203,8 +301,6 @@ Hybrid-Health-Risk-System/
 │   │
 │   ├── config/
 │   │   └── config.py
-│   │
-│   ├── data/
 │   │
 │   ├── database/
 │   │   ├── connection.py
@@ -232,311 +328,96 @@ Hybrid-Health-Risk-System/
 │       ├── utils/
 │       └── app.py
 │
+├── docs/
+│   ├── AI-Health-Companion-1.0-Presentation.pdf
+│   ├── Architecture.md
+│   └── Images/
+│
 ├── download_assets.py
-├── requirements.txt
 ├── init_db.py
-├── .env
+├── requirements.txt
+├── .env.example
 └── README.md
 ```
 
----
+# 📚 Documentation
 
-# 🧬 AI Models Used
+Additional documentation is available in the `docs/` directory.
 
-| Model Type | Purpose |
-|---|---|
-| XGBoost | Disease Risk Prediction |
-| LightGBM | Obesity Risk Prediction |
-| Deep Learning Model | Hybrid Multi-risk Inference |
-| Wellness Engine | Wellness Score Calculation |
-| LLM Integration | AI Interpretation & Chat |
-
----
-
-# 📊 Prediction Categories
-
-The system analyzes:
-
-- Diabetes Risk
-- Heart Disease Risk
-- Obesity Risk
-- Lifestyle Wellness Risk
-- Behavioral Health Indicators
-
----
-
-# 🎨 Frontend Highlights
-
-- Modern glassmorphism UI
-- Premium healthcare dashboard
-- Interactive analytics visualization
-- AI processing animations
-- Responsive layouts
-- Dynamic Plotly charts
-- Wellness gauge analytics
-
----
-
-# 🔧 Tech Stack
-
-## 🎨 Frontend
-
-- Streamlit
-- Plotly
-- HTML/CSS
-- Custom CSS Styling
-
----
-
-## ⚙️ Backend
-
-- FastAPI
-- Uvicorn
-- Pydantic
-- Requests
-
----
-
-## 🧬 AI & ML
-
-- TensorFlow / Keras
-- Scikit-learn
-- XGBoost
-- LightGBM
-- NumPy
-- Pandas
-
----
-
-## 🗄️ Database
-
-- SQLite
-- SQLAlchemy
-
----
-
-## 🤖 AI Integration
-
-- OpenRouter API
-- LLM-based interpretation system
-
----
-
-# ⚙️ Environment Variables
-
-Create a `.env` file inside the root directory.
-
-Add the following variables:
-
-```env
-OPENROUTER_API_KEY=your_openrouter_api_key
-SECRET_KEY=your_secret_key
-```
-
-⚠ Important:
-
-Keep the `SECRET_KEY` exactly as provided in the project configuration.
-
-Generate your `OPENROUTER_API_KEY` from:
-
-https://openrouter.ai/
-
-After creating an account:
-
-- Go to "Keys"
-- Generate a new API key
-- Copy and paste it inside the `.env` file
-
-Only these two variables are required inside `.env`.
-
----
-
-# 📦 Downloading AI Assets
-
-The trained AI models and dataset are not included in the GitHub repository due to file size limitations.
-
-Before running the project, execute:
-
-```bash
-python download_assets.py
-```
-
-This script automatically:
-
-- Creates required folders
-- Downloads Deep Learning models
-- Downloads Machine Learning models
-- Downloads scaler files
-- Downloads preprocessing files
-- Downloads dataset files
-
-After downloading completes, the project can be run normally.
-
----
-
-# ▶️ Running the Project
-
-## 1️⃣ Clone Repository
-
-```bash
-git clone https://github.com/SubhankarA8415/Hybrid-Health-Risk-System.git
-cd Hybrid-Health-Risk-System
-```
-
----
-
-## 2️⃣ Create Virtual Environment
-
-### Windows
-
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
-
-### Linux / Mac
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
----
-
-## 3️⃣ Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## 4️⃣ Configure Environment Variables
-
-Create a `.env` file inside the root directory.
-
-Add:
-
-```env
-OPENROUTER_API_KEY=your_openrouter_api_key
-SECRET_KEY=your_secret_key
-```
-
----
-
-## 5️⃣ Download AI Assets
-
-```bash
-python download_assets.py
-```
-
----
-
-## 6️⃣ Initialize Database
-
-```bash
-python init_db.py
-```
-
-This automatically creates:
-
-```bash
-health_system.db
-```
-
----
-
-## 7️⃣ Start Backend Server
-
-```bash
-uvicorn project.api.server:app --reload
-```
-
-Backend runs at:
-
-```bash
-http://127.0.0.1:8000
-```
-
----
-
-## 8️⃣ Start Frontend
-
-Open another terminal and run:
-
-```bash
-streamlit run project/ui/app.py
-```
-
-Frontend runs at:
-
-```bash
-http://localhost:8501
-```
-
----
-
-# 📄 PDF Reporting
-
-The system automatically generates:
-
-- AI wellness reports
-- Risk analytics reports
-- Preventive healthcare summaries
-- Downloadable PDF reports
-
----
-
-# 🔐 Authentication Flow
-
-- User Registration
-- Secure Login
-- Session Persistence
-- Report Ownership Management
-- Chat History Persistence
+- 📄 Project Presentation
+- 🏗️ System Architecture
+- 📚 Technical Documentation
+- 🚀 Deployment Guide *(Planned)*
 
 ---
 
 # 📈 Future Scope
 
-Potential future improvements:
+Potential future enhancements include:
 
-- JWT Authentication
-- PostgreSQL Migration
+- JWT-based Authentication
+- PostgreSQL Database Migration
+- Docker Containerization
 - Cloud Deployment
+- CI/CD Pipeline Integration
 - Wearable Device Integration
-- Voice-based AI Assistant
+- Voice-based AI Health Assistant
 - Multi-step Health Assessment Wizard
 - Real-time Health Monitoring
+- Mobile Application Support
 
 ---
 
 # ⚠️ Disclaimer
 
-This platform is developed for:
+AI Health Companion is developed for **educational**, **research**, and **preventive healthcare awareness** purposes.
 
-- Educational purposes
-- AI research
-- Preventive wellness awareness
+The predictions and recommendations generated by this platform are intended to assist users in understanding potential health risks and wellness indicators. They should **not** be considered a substitute for professional medical advice, diagnosis, or treatment.
 
-It is NOT intended to replace professional medical diagnosis, treatment, or healthcare consultation.
-
-Always consult qualified healthcare professionals for medical decisions.
+Always consult qualified healthcare professionals before making medical decisions.
 
 ---
 
-# 👨‍💻 Author
+# 👨‍💻 Developer
 
-## Subhankar Pandit
+## **Subhankar Pandit**
 
-Final Year B.Tech Computer Science Student  
-ITER, SOA University
+**Computer Science Engineer | Full Stack Developer | AI & Machine Learning Enthusiast**
 
-- GitHub: https://github.com/SubhankarA8415
-- LinkedIn: https://linkedin.com/in/subhankar-pandit-080449255
+Passionate about building scalable full-stack applications, intelligent AI systems, and real-world software solutions that combine modern engineering practices with practical problem-solving.
 
 ---
 
-# ⭐ If You Like This Project
+# 📬 Connect With Me
 
-Consider giving the repository a ⭐ on GitHub.
+If you'd like to discuss this project, collaborate on innovative ideas, explore professional opportunities, or connect for technical discussions, feel free to reach out.
+
+- 🌐 **Portfolio:** https://portfolio-subhankar-pandits-projects.vercel.app/
+- 💼 **LinkedIn:** https://linkedin.com/in/subhankar-pandit-080449255
+- 💻 **GitHub:** https://github.com/SubhankarA8415
+- 🎥 **YouTube:** https://youtube.com/@subhankardevlab
+- 📧 **Email:** subhankar.pandit2002@gmail.com
+
+---
+
+# 🤝 Contributing
+
+Contributions, suggestions, feature requests, and feedback are always welcome.
+
+If you'd like to improve this project, feel free to fork the repository, open an issue, or submit a pull request.
+
+---
+
+# ⭐ Support
+
+If you found this project helpful or interesting, consider giving it a **⭐ Star** on GitHub.
+
+Your support helps increase the visibility of the project and motivates the development of future open-source AI and Full Stack projects.
+
+---
+
+<p align="center">
+
+<strong>Made with ❤️ by Subhankar Pandit</strong>
+
+</p>
