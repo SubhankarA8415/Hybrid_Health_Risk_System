@@ -297,7 +297,6 @@ Hybrid-Health-Risk-System/
 │   │   ├── schemas.py
 │   │   └── server.py
 │   │
-│   ├── artifacts/
 │   │
 │   ├── config/
 │   │   └── config.py
@@ -331,12 +330,10 @@ Hybrid-Health-Risk-System/
 ├── docs/
 │   ├── AI-Health-Companion-1.0-Presentation.pdf
 │   ├── Architecture.md
-│   └── Images/
 │
 ├── download_assets.py
 ├── init_db.py
 ├── requirements.txt
-├── .env.example
 └── README.md
 ```
 
