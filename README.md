@@ -85,8 +85,8 @@ It can be shared upon request for:
 |----------|-------------|
 | 🎥 Public Project Showcase | Presentation-based overview of the complete project |
 | 📄 Project Presentation | Complete project presentation (available in the `docs` directory) |
-| 🏗️ Architecture Documentation | Detailed explanation of the complete system architecture |
-| 📚 Technical Documentation | Additional implementation and development documentation |
+| 🏗️ Architecture Documentation | Detailed explanation of the complete system architecture (available in the `docs` directory)|
+| 📚 Technical Documentation | Additional implementation and development documentation (available in the `docs` directory)|
 
 ---
 
