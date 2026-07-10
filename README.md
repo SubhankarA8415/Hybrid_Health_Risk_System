@@ -164,7 +164,7 @@ It can be shared upon request for:
 
 ---
 
-# 🏗️ System Architecture
+# 🏗️ High-level System Architecture
 
 AI Health Companion follows a modular, scalable, and production-oriented full-stack architecture. Each layer is designed to operate independently while contributing to a unified healthcare intelligence platform.
 
