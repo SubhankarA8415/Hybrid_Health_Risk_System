@@ -375,7 +375,7 @@ Always consult qualified healthcare professionals before making medical decision
 
 ---
 
-# 👨‍💻 Developer
+# 👨‍💻 Developers & Contributors
 
 ## **Subhankar Pandit**
 
@@ -383,17 +383,46 @@ Always consult qualified healthcare professionals before making medical decision
 
 Passionate about building scalable full-stack applications, intelligent AI systems, and real-world software solutions that combine modern engineering practices with practical problem-solving.
 
----
+### Contributions
 
-# 📬 Connect With Me
+- Full-stack application architecture and development
+- Backend API development and integration
+- Hybrid AI prediction pipeline
+- Machine Learning and Deep Learning model integration
+- LLM integration and healthcare interpretation
+- Authentication, report management, and database implementation
+- Interactive dashboard and frontend development
+- End-to-end system integration
 
-If you'd like to discuss this project, collaborate on innovative ideas, explore professional opportunities, or connect for technical discussions, feel free to reach out.
+### 🔗 Connect With Subhankar
 
 - 🌐 **Portfolio:** https://portfolio-subhankar-pandits-projects.vercel.app/
 - 💼 **LinkedIn:** https://linkedin.com/in/subhankar-pandit-080449255
 - 💻 **GitHub:** https://github.com/SubhankarA8415
 - 🎥 **YouTube:** https://youtube.com/@subhankardevlab
 - 📧 **Email:** subhankar.pandit2002@gmail.com
+
+---
+
+## **Siba Prasad Mishra**
+
+**Data Science | Machine Learning | AI Systems**
+
+Passionate about Data Science, ML & AI systems, and real-world software solutions that combine modern engineering practices with practical problem-solving.
+
+### Contributions
+
+- Data analytics and exploratory analysis
+- Dataset preparation and preprocessing
+- Machine Learning baseline modelling
+- Model evaluation and comparative analysis
+- Supporting data-driven insights for the prediction pipeline
+
+### 🔗 Connect With Siba
+
+- 💼 **LinkedIn:** https://www.linkedin.com/in/siba-mishra-078b6020a/
+- 💻 **GitHub:** https://github.com/SibaMishra200
+- 📧 **Email:** sibamishra200@gmail.com
 
 ---
 
@@ -413,12 +442,10 @@ Your support helps increase the visibility of the project and motivates the deve
 
 ---
 
----
-
 <p align="center">
 
 ### 🚀 Building Intelligent Software for Real-World Impact
 
-**Designed & Developed by Subhankar Pandit**
+**Designed & Developed by Subhankar Pandit and Siba Prasad Mishra**
 
 </p>
